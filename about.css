@@ -1,0 +1,113 @@
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.container-xxl, .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+div {
+    display: block;
+}
+.g-5, .gy-5 {
+    --bs-gutter-y: 3rem;
+}
+
+.g-5, .gx-5 {
+    --bs-gutter-x: 3rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.row > * {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+@media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+@media (min-width: 992px) {
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+.h-100 {
+    height: 100% !important;
+}
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+.display-6 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+h1{
+    margin-top: 0px;
+    font-family: Poppins, sans-serif;
+    color: rgb(21, 35, 60);
+}
+p {
+    margin-top: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+@media (min-width: 576px){
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+.align-items-center {
+    align-items: center !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+.border-top {
+    border-top: 1px solid rgb(222, 226, 230) !important;
+}
+img.me-3{
+    height: 64px;
+    width: 64px;
+}
+img.rounded-circle{
+    height: 45px;
+    width: 45px;
+}
+img.position-absoloute{
+    height: 800px;
+    width: 800px;
+}
