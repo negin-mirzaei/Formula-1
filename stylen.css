@@ -1,5 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 footer{
-    background-color: #45526e;
+    background-color: #212d47;
     color: rgba(245, 245, 245, 0.692);
 }
 
