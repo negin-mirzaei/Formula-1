@@ -1,0 +1,76 @@
+/* style of header */
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins&display=swap');
+#logo {
+  font-weight: 600;
+  color: black;
+  font-size: 45px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+#biziii{
+    font-weight: 600;
+    color: black;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+}
+.page-header {
+    background-image: url(images/pexels-jenda-kubes-13641535.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#image-two{
+    max-width: 65px;
+}
+.border-primary{
+    border-style: dashed !important;
+}
+.bg-primary:hover{
+    background-color: aqua !important;
+}
+footer{
+  background-color: #212d47;
+  color: rgba(245, 245, 245, 0.692);
+}
+.f45{
+  color: rgba(245, 245, 245, 0.692);
+}
+/* button back to top*/
+.btn.btn-primary, .btn.btn-outline-primary:hover, .btn.btn-secondary, .btn.btn-outline-secondary:hover {
+  color: #ffffff;
+}
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+.btn {
+  transition: 0.5s;
+}
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  transition: all 0.4s;
+}
+.back-to-top:hover {
+  background-color: hsl(211, 44%, 80%);
+  border: hsl(210, 9%, 25%);
+  transform: scale(1.1);
+}
+.btn-lg, .btn-group-lg>.btn {
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: #015FC9;
+  border-color: #015FC9;
+}
+/* button back to top*/
